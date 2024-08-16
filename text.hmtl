@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistem Kombinasi Karakter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Kombinasi Karakter</h1>
+    <div id="startSection">
+      <button id="startButton">Mulai</button>
+    </div>
+    <div id="levelButtons">
+      <button id="gachaLv1">Gacha Lv 1</button>
+      <button id="gachaLv2">Gacha Lv 2</button>
+      <button id="gachaLv3">Gacha Lv 3</button>
+    </div>
+    <div id="gachaSection">
+      <button id="spinButton">Spin!</button>
+      <button id="backButton">Kembali</button>
+      <div id="result"></div>
+      <div id="stars"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
